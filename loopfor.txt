@@ -1,0 +1,8 @@
+for ((a=5;a<=10;a++))
+do
+if[$a > 5]
+echo "It works"
+else
+echo " fails"
+fi
+done
