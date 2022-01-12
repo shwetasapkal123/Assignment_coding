@@ -13,6 +13,8 @@ elif [ "$number" = "6" ]; then
     echo "Friday"
 elif [ "$number" = "7" ]; then
     echo "saturday"
+elif [ "$number" = "0" ]; then
+  echo "none"
 else
     echo "You did not enter a number between 1 and 7."
 fi
